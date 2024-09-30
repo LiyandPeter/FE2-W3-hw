@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+ <html>
+
+ <head>
+    <meta charset="utf-8">
+    <title>vegetable_layout</title>
+
+    <style>
+
+        header {
+            width: 1122px;
+            height: 62px;
+            margin-top: 36px; /* header到頁面頂端的距離 */
+            margin-left: 160px; 
+        }
+
+        .head{
+            display: flex;
+        }
+
+        .Login{
+            border-radius: 3px;
+            border-width: 1px;        /* 邊框寬度 */
+            border-style: solid;      /* 邊框樣式 */
+            width: 62px;             /* 盒子寬度 */
+            height: 27px;            /* 盒子高度 */
+            border-color: #778A50; /* 設定邊框的寬度、樣式和顏色 */
+            color: #778A50;                /* 字體顏色 */
+            text-align: center;         /* 文字置中 */
+            margin-bottom: 6px;
+            padding-left: 3px;       /* 內邊距 */
+            padding-bottom: 3px;
+            line-height: 3px;
+            
+            display: inline-block; /* 讓邊框包住內容 */
+        }
+
+        .Join{
+            border-radius: 3px;
+            border-width: 1px;        /* 邊框寬度 */
+            border-style: solid;      /* 邊框樣式 */
+            width: 62px;             /* 盒子寬度 */
+            height: 27px;            /* 盒子高度 */
+            border-color: #778A50; /* 設定邊框的寬度、樣式和顏色 */
+            color: #778A50;                /* 字體顏色 */
+            text-align: center;         /* 文字置中 */
+            margin-bottom: 6px;
+            padding-left: 3px;       /* 內邊距 */
+            padding-bottom: 3px;
+            line-height: 3px;
+            
+            display: inline-block; /* 讓邊框包住內容 */
+        }
+
+        .Social_media{
+            display: flex; /* 使用flexbox */
+            gap: 25px; /* 照片之間的間距 */
+            margin-top: 30px;
+            margin-left: 738px;
+
+        }
+
+        .main-nav {
+            background-color: #778A50;
+            color: #EDF2C5;
+            width: 1120px;
+            height: 44px;
+            margin-top: 10px; 
+            margin-left: 160px; 
+            padding: 10px; /* 內邊距 */
+            border-radius: 3px; /* 圓角 */
+        }
+
+        .main-nav ul {
+            display: flex; 
+            align-items: center;
+            list-style-type: none; /* 去掉項目前的圓點 */
+            padding: 0; /* 去掉內邊距 */
+            padding-left: 20px;
+            margin: 10; /* 去掉外邊距 */
+        }
+
+        .main-nav li {
+            margin-right: 90px; /* 項目之間的間距 */
+        }
+
+        body{
+            width:1440px;
+            height: 1024px;
+            
+            background-color: #EDF2C5;
+        }
+        
+        h1{
+            font-weight: bold;
+            color:#778A50;
+            
+        }
+
+        
+        .pumpkin_photo{
+            margin-top: 20px;
+            margin-bottom: 10px;
+            margin-left: 160px;
+        }
+
+        /*---------------------------------------------------*/
+
+        .left_vegetable{
+            background-color: #778A50;
+            color: #EDF2C5;
+            padding: 0; /* 去掉內邊距 */
+            padding-left: 20px;
+            margin: 10; /* 去掉外邊距 */
+            display: flex; 
+            align-items: center;
+            width: 528px;
+            height: 45px;
+            margin-top: 10px; 
+            margin-left: 160px;
+            border-radius: 3px;
+        }
+
+
+        .vegetable_photo {
+            display: flex; /* 使用flexbox */
+            gap: 25px; /* 照片之間的間距 */
+            margin-top: 20px; 
+            margin-left: 160px;
+        }
+
+        .Down{
+            display: flex;
+        }
+
+        .right_Contact{
+            background-color: #778A50;
+            color: #EDF2C5;
+            padding: 0; /* 去掉內邊距 */
+            padding-left: 20px;
+            margin: 10; /* 去掉外邊距 */
+            display: flex; 
+            align-items: center;
+            width: 528px;
+            height: 45px;
+            margin-top: 10px; 
+            margin-left: 20px;
+            border-radius: 3px;
+        }
+
+        .Contact_text{
+            background-color:#F7FBDA;
+            width: 528px;
+            height: 130px;
+            margin-top: 20px; 
+            margin-left: 20px;
+            padding: 0; /* 去掉內邊距 */
+            padding-left: 20px;
+            margin: 10; /* 去掉外邊距 */
+            
+        }
+
+        footer{            
+            background-color: #778A50;
+            color: #EDF2C5;
+            align-items: center;
+            list-style-type: none; /* 去掉項目前的圓點 */
+            padding: 0; /* 去掉內邊距 */
+            padding-left: 20px;
+            margin: 10; /* 去掉外邊距 */
+            width: 1440px;
+            height: 60px;
+            margin-top: 10px; 
+            text-align: center;
+            padding: 10px; /* 內邊距 */
+            border-radius: 3px; /* 圓角 */
+        }
+
+    </style>
+ </head>
+
+
+<header>
+    <div class="head">
+        <h1>Vegetables</h1>
+        <div class="Social_media">
+
+            <div clas="FaceBook">
+                <img src="C:\Users\peter\Desktop\前端工程設計課程\vegetable作業\4f345742d886cdcadd4936a9603470d5.png" 
+                alt="FaceBook" width="24" height="24">
+            </div>
+            <div class="Instergram">
+                <img src="C:\Users\peter\Desktop\前端工程設計課程\vegetable作業\c2268043fcf5c8b28dd7553045849607.png" 
+                alt="Instergram" width="24" height="24">
+            </div>
+
+            
+            <div class="Login">
+               <p>LOGIN</p>
+            </div>
+        
+            <div class="Join">
+                <p>JOIN</p>
+            </div>
+
+        
+        </div>
+
+    </div>
+    
+
+
+</header>
+
+<nav class="main-nav">
+    <ul>
+        <li><a>Home</a></li>
+        <li><a>About Us</a></li>
+        <li><a>Vegetables</a></li>
+        <li><a>Online</a></li>
+        <li><a>Contact</a></li>
+    </ul>
+</nav>
+
+<body>
+
+    <div class="pumpkin_photo">
+        <img src="C:\Users\peter\Desktop\前端工程設計課程\vegetable作業\img_main_pumpkin.png" 
+        alt="The photo of vegetables" width="1140" height="448">
+    </div>
+
+
+    <div class="Down">
+
+        <div class="left">
+            <a class="left_vegetable">Vegetables</a>       
+    
+            <div class="vegetable_photo">
+                <img src="C:\Users\peter\Desktop\前端工程設計課程\vegetable作業\img_vegetables_carrot.png" 
+                alt="The photo of Carrots" width="165" height="140">
+        
+                <img src="C:\Users\peter\Desktop\前端工程設計課程\vegetable作業\img_vegetables_corn.png" 
+                alt="The photo of Corns" width="166" height="140">
+        
+                <img src="C:\Users\peter\Desktop\前端工程設計課程\vegetable作業\img_vegetables_pepper.png" 
+                alt="The photo of peppers" width="165" height="140">
+            </div>
+
+        </div>
+    
+        <div class="right">
+
+            <a class="right_Contact">Contact</a>       
+    
+            <div class="Contact_text">
+                <p>
+                    For any questions or suggestions about Vegetables, 
+                    Vegetables Club or your online order you can contact Vegetables Customer Service by phone, 
+                    email or <br>post and we’ll be happy to help.
+                    <br>
+                </p>
+                <hr style="width:496px;border:1px;text-align:left;margin-left:0;color:#7D7D7D">
+                <p>
+                    E-mail : Vegetables@aaabbccc.com<br>
+                    PHONE : +886-123-456-789
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</body> 
+
+<footer>
+    <p>
+        Copyrights 2017 Vegetables cise / Design by Vegetables
+    </p>
+
+</footer>
+ </html>
